@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core;
+namespace tryu\phpmvc;
 
-use app\core\db\Database;
-use app\core\db\DbModel;
+use tryu\phpmvc\db\Database;
+use tryu\phpmvc\db\DbModel;
 
 class Application
 {

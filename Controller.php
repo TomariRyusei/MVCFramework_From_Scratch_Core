@@ -1,17 +1,17 @@
 <?php
 
-namespace app\core;
+namespace tryu\phpmvc;
 
 
-use app\core\Application;
-use app\core\middlewares\BaseMiddleware;
+use tryu\phpmvc\Application;
+use tryu\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
     public string $layout = 'main';
     public string $action = '';
 
-    /** @var \app\core\middlewares\BaseMiddleware[] */
+    /** @var \tryu\phpmvc\middlewares\BaseMiddleware[] */
     protected array $middlewares = [];
 
     public function render($view, $params = [])

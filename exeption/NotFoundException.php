@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\exeption;
+namespace tryu\phpmvc\exeption;
 
 class NotFoundException extends \Exception
 {

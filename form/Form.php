@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\form;
+namespace tryu\phpmvc\form;
 
-use app\core\form\InputField;
-use app\core\Model;
+use tryu\phpmvc\form\InputField;
+use tryu\phpmvc\Model;
 
 class Form
 {

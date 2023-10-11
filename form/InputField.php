@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace tryu\phpmvc\form;
 
-use app\core\Model;
+use tryu\phpmvc\Model;
 
 class InputField extends BaseField
 {

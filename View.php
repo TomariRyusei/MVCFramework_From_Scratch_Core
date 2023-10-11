@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace tryu\phpmvc;
 
 class View
 {
